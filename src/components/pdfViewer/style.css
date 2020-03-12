@@ -1,0 +1,7 @@
+.container-no-data {
+    border:1px solid lightgrey;
+    height:98vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

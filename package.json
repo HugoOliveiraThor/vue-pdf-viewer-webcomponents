@@ -1,10 +1,10 @@
 {
-  "name": "vue-pdf-viewer",
+  "name": "vue-pdf-viewer-simple",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target wc --inline-vue --name pdf-viewer ./src/App.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

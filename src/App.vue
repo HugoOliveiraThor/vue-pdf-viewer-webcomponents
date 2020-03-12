@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <pdf-viewer urlDocumento="http://www.africau.edu/images/default/sample.pdf"></pdf-viewer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    'pdf-viewer':() => import('./components/pdfViewer/pdf-viewer')
   }
 }
 </script>

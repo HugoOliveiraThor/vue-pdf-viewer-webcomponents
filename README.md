@@ -1,4 +1,4 @@
-# vue-pdf-viewer
+# vue-pdf-viewer webcomponent
 
 ## Project setup
 ```
@@ -19,11 +19,9 @@ yarn run build
 ```
 yarn run test
 ```
-
-### Lints and fixes files
+### Parameters to use the component
 ```
-yarn run lint
-```
-
+<pdf-viewer urlDocumento="http://www.africau.edu/images/default/sample.pdf"></pdf-viewer>
+``` 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
